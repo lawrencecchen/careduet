@@ -52,7 +52,7 @@ const PersonalizedCeleb = () => {
           </div>
           <div className="celeb-button">
             <Link to={`${url}/book`}>
-              <button>Send Duet</button>
+              <button>Collab Duet</button>
             </Link>
 
             <p>How does this work? </p>
