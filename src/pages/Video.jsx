@@ -101,12 +101,8 @@ const Video = ({ targetCelebData }) => {
     },
     onSubmit: ({ description, recipientTwitterHandle }) => {
       const senderVideoId =
-        Math.random()
-          .toString(36)
-          .substring(2, 15) +
-        Math.random()
-          .toString(36)
-          .substring(2, 15);
+        Math.random().toString(36).substring(2, 15) +
+        Math.random().toString(36).substring(2, 15);
 
       if (recordedChunks.length > 0) {
         const name = senderVideoId + '';
@@ -132,10 +128,10 @@ const Video = ({ targetCelebData }) => {
 
               db.collection('careduets')
                 .add(careduetData)
-                .then(function(docRef) {
+                .then(function (docRef) {
                   console.log('Document written with ID: ', docRef.id);
                 })
-                .catch(function(error) {
+                .catch(function (error) {
                   console.error('Error adding document: ', error);
                 });
             });
@@ -187,7 +183,15 @@ const Video = ({ targetCelebData }) => {
 
         <StyledForm onSubmit={formik.handleSubmit}>
           {capturing ? (
-            <Button variant="danger" onClick={handleStopCaptureClick}>
+            <Button
+              variant="danger"
+              onClick={handleStopCaptureClick}
+              style={{
+                background: 'linear-gradient(to right, #429ea6, #7180b9)',
+                border: 'none',
+                marginBottom: '20px',
+              }}
+            >
               Stop Capture <RiStopCircleLine />
             </Button>
           ) : (

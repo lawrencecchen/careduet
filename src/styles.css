@@ -1,9 +1,9 @@
 /* @import "~bootstrap/scss/bootstrap"; */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap");
 
 :root {
-  --default-font: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --default-font: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .col-form-label {
@@ -23,7 +23,7 @@ html {
   background-size: cover;
   height: 100vh;
   width: 100vw;
-   font-size: 3em; 
+   font-size: 3em;
   color: white; */
 }
 
@@ -115,11 +115,11 @@ a:hover {
 
 .celeb-card {
   margin-left: 49px;
+  margin-right: 49px !important;
   display: flex;
   flex-direction: row;
   margin-top: 30px;
   height: 100%;
-  width: 90%;
   padding: 25px;
   color: white;
   font-family: var(--default-font);
@@ -164,11 +164,11 @@ a:hover {
 }
 .celeb-button {
   margin-left: 49px;
+  margin-right: 49px !important;
   display: flex;
   flex-direction: column;
   margin-top: 15px;
   height: 150px;
-  width: 90vw;
   padding: 25px;
   align-items: center;
   color: white;
@@ -184,13 +184,7 @@ a:hover {
   position: relative;
   overflow: hidden;
 
-  background: linear-gradient(
-    45deg,
-    #3bade3 0%,
-    #576fe6 25%,
-    #9844b7 51%,
-    #ff357f 100%
-  );
+  background: linear-gradient(45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
   height: 50px;
   width: 372px;
   border-radius: 30px;
@@ -304,11 +298,11 @@ a:hover {
 
 .hashtag-info {
   margin-left: 49px;
+  margin-right: 49px !important;
   display: flex;
   flex-direction: row;
   margin-top: 15px;
   height: 200px;
-  width: 90vw;
   padding: 25px;
   align-items: center;
   color: white;
