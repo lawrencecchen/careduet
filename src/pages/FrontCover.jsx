@@ -78,7 +78,7 @@ const FrontCover = () => {
             key={-20}
             name="Ariana Grande"
             username="arianagrande"
-            description="Singing stuff"
+            description="Singer"
           />
           <Card
             profileUrl="https://www.mercurynews.com/wp-content/uploads/2019/11/Tesla-Pickup.jpg"
@@ -99,7 +99,7 @@ const FrontCover = () => {
             key={-10}
             name="Constance Wu"
             username="constancewu"
-            description="Crazy Rich Asian"
+            description="Crazy Rich Asians"
           />
           <Card
             profileUrl="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F593b2e4b31358e03e55a0e8c%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D634%26cropX2%3D2468%26cropY1%3D39%26cropY2%3D1874"
@@ -113,7 +113,7 @@ const FrontCover = () => {
             key={-4}
             name="Mark Zuckerberg"
             username="markzuckerberg"
-            description="FB is my BF"
+            description="FB"
           />
           <Card
             profileUrl="https://specials-images.forbesimg.com/imageserve/5e8bec80c095010007c004ef/960x0.jpg?cropX1=0&cropX2=1532&cropY1=501&cropY2=1621"
@@ -135,13 +135,6 @@ const FrontCover = () => {
             name="Ed Sheeran"
             username="edsheeran"
             description="Shape of You"
-          />
-          <Card
-            profileUrl="https://i.guim.co.uk/img/media/63f84942f711f06f71a57f6d94ee040acdb1194d/0_117_4000_2402/master/4000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=2a23921fde80f06d34272b88f0def679"
-            key={-7}
-            name="Donald Trump"
-            username="donaldtrump"
-            description="You're Fired!"
           />
           <Card
             profileUrl="https://cdn.costumewall.com/wp-content/uploads/2018/09/pam-beesly.jpg"
