@@ -1,6 +1,6 @@
 # careduet
 ## Inspiration.
-'I can't leave. Nobody's leaving. I have to stay and help.'" That’s the words of Dr. Lorna Breen, the emergency room director of the NewYork-Presbyterian Hospital. At the end of her 12 hour shifts, she couldn’t leave all the COVID19 patients there, she wanted to help. On April 26, she died of suicide.
+***'I can't leave. Nobody's leaving. I have to stay and help.'*** That’s the words of Dr. Lorna Breen, the emergency room director of the NewYork-Presbyterian Hospital. At the end of her 12 hour shifts, she couldn’t leave all the COVID19 patients there, she wanted to help. On April 26, she died of suicide.
 
 This is the reality that health-care front-line workers face on a day-to-day basis. The COVID-19 pandemic has increased work hours and made work conditions more life-endangering to millions of healthcare workers around the country, adding more burden to an already stressful job. These effects aren’t limited to healthcare workers: individuals all around the country have been forced to minimize time outside as well as social interactions, both of which have negative effects towards mental health.
 
