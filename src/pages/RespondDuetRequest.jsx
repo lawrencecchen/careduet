@@ -103,12 +103,8 @@ const RespondDuetRequest = () => {
     onSubmit: () => {
       if (recordedChunks.length > 0) {
         const celebVideoId =
-          Math.random()
-            .toString(36)
-            .substring(2, 15) +
-          Math.random()
-            .toString(36)
-            .substring(2, 15);
+          Math.random().toString(36).substring(2, 15) +
+          Math.random().toString(36).substring(2, 15);
         const name = celebVideoId + '';
         const blob = new Blob(recordedChunks, { type: 'video/mp4' });
 
@@ -151,21 +147,36 @@ const RespondDuetRequest = () => {
   return (
     <VideoWrapper>
       <SelectedCelebWrapper className="celeb-divider">
-        <h2 className="celeb-record">
-          Sender video id: {senderVideoId}
-          <span className="celeb-name">
-            {' '}
-            {/* {targetRequester.name}{' '} */}
-            <video width="320" height="240" controls>
-              <source src={`${videoUrl}.mp4`} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </span>
-        </h2>
-        <div className="pfp">/>BLANK</div>
+        <h2 className="celeb-record">Sender's video</h2>
+        <span className="celeb-name" style={{}}>
+          <video
+            width="500"
+            height="285"
+            controls
+            autoPlay={false}
+            src={videoUrl}
+          >
+            {/* <source src={videoUrl} type="video/mp4" /> */}
+            {/* <source src={videoUrl} type="video/mp4"></source> */}
+            {/* <source src={videoUrl} type="video/mp4"></source> */}
+            Your browser does not support the video tag.
+          </video>
+        </span>
+        <div>
+          <a
+            style={{
+              fontSize: '12px',
+              color: 'blue',
+            }}
+            href={videoUrl}
+            target="_blank"
+          >
+            Link to video
+          </a>
+        </div>
       </SelectedCelebWrapper>
       <RecordVideoWrapper className="celeb-divider">
-        <h2 className="celeb-record">Record Video</h2>
+        <h2 className="celeb-record">Record Your Video</h2>
         <StyledWebcam
           audio
           mirrored
@@ -176,7 +187,15 @@ const RespondDuetRequest = () => {
 
         <StyledForm onSubmit={formik.handleSubmit}>
           {capturing ? (
-            <Button variant="danger" onClick={handleStopCaptureClick}>
+            <Button
+              variant="danger"
+              onClick={handleStopCaptureClick}
+              style={{
+                background: 'linear-gradient(to right, #429ea6, #7180b9)',
+                border: 'none',
+                marginBottom: '20px',
+              }}
+            >
               Stop Capture <RiStopCircleLine />
             </Button>
           ) : (

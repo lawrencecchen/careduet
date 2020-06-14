@@ -1,8 +1,9 @@
 {
   "name": "careduet",
   "version": "1.0.0",
-  "description": "",
+  "description": "CareDuet",
   "keywords": [],
+  "license": "UNLICENSED",
   "main": "src/index.js",
   "dependencies": {
     "@firebase/storage": "0.3.35",
