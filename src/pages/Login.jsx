@@ -16,6 +16,7 @@ var uiConfig = {
   ],
   // tosUrl and privacyPolicyUrl accept either url string or a callback
   // function.
+  signInFlow: 'popup',
 };
 
 const Login = () => {

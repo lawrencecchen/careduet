@@ -8,6 +8,7 @@ import Celeb from './pages/Celeb';
 import DuetRequests from './pages/DuetRequests';
 import SignInSuccess from './pages/SignInSuccess';
 import './styles.css';
+import SignOut from './pages/SignOut';
 
 export default function App() {
   const [user, setUser] = useState(null);
@@ -52,6 +53,7 @@ export default function App() {
           <Route path="/celeb" component={Celeb} />
           <Route path="/duetrequests" component={DuetRequests} />
           <Route path="/signedIn" component={SignInSuccess} />
+          <Route path="/logout" component={SignOut} />
           {/* <Route path="/celebform" component={CelebForm} /> */}
         </Switch>
       </div>
